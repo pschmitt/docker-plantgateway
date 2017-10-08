@@ -39,9 +39,6 @@ then
   fi
 fi
 
-docker run -it --rm \
-  --net=host \
-  -v ${PWD}/config:/config:ro \
-  pschmitt/plantgateway
+exec plantgateway
 
 # vim: set tf=sh et ts=2 sw=2 :
