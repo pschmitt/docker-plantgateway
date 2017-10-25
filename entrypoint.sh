@@ -11,7 +11,7 @@ bt_exists() {
 }
 
 bt_init() {
-  hciattach /dev/ttyAMA0 bcm43xx 921600 noflow -
+  hciattach /dev/ttyAMA0 bcm43xx 115200 noflow -
 }
 
 bt_is_up() {
