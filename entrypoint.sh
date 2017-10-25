@@ -41,4 +41,4 @@ fi
 
 exec plantgateway
 
-# vim: set tf=sh et ts=2 sw=2 :
+# vim: set ft=sh et ts=2 sw=2 :
